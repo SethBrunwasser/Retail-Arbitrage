@@ -1,0 +1,36 @@
+Offerup API	https://api.offerupnow.com/api/search/v4/feed/?accuracy=100&q="iphone"
+		https://stevesie.com/apps/offerup-api/search
+Craigslist API
+Ebay API
+Facebook market place - build API
+
+Potential stores:
+target api
+wish.com
+alibaba
+bestbuy
+walmart api
+
+Project Plan:
+- Build initial tool to query sources and find price differences
+	- query APIs
+		- grab cluster of similar products from both sources
+		- determine best match somehow
+			- NLTK?
+			- Fuzzywuzzy?
+			- https://github.com/anhaidgroup/deepmatcher
+
+
+			
+	- find min and max prices for product to arbitrage
+
+- Build out querys to multiple sources
+- Build out potential front-end to list products
+	- React.js
+	- names
+	- photos
+
+- Research on how to find best products/categories to arbitrage
+	- Look into fastest selling
+	- Most volatile
+
